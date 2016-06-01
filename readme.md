@@ -1,5 +1,9 @@
 # KMI.TL NEW 2016 Version 0.5 (CSAG Project)
-KMI.TL is an url shortener website (http://kmi.tl/)
+KMI.TL is an url shortener website (http://kmi.tl)
+
+**Project owner**
+
+Passakon Puttasuwan
 
 Howto install
  - upload
