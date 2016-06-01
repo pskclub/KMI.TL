@@ -17,7 +17,11 @@ class ShortController extends Controller
         ]);
 
         if ($validator->fails()) {
-            $data = ['error' => true, 'error_message' => "invalid url", 'url' => $request->url];
+            $data = [
+                'error' => true,
+                'error_message' => "invalid url",
+                'url' => $request->url
+            ];
             return json_encode($data);
         } else {
             $url = Url::where('url', $request->url)->first();
@@ -32,11 +36,13 @@ class ShortController extends Controller
                 $url->save();
 
             }
-            $data = ['url' => $url->url,
+            $data = [
+                'url' => $url->url,
                 'alias' => url($url->hash),
                 'info' => url($url->hash . '/info'),
                 'qr' => url($url->hash . '/qr'),
-                'counter' => 0];
+                'counter' => 0
+            ];
             return json_encode($data);
         }
     }
