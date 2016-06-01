@@ -4,7 +4,7 @@ Howto install
  - upload
  - composer install
  - dump sql kmi_tl.sql
- - edit .env
+ - edit .env.example and change to .env
  - enjoy!!
 
 
