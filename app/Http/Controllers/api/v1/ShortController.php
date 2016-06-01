@@ -32,7 +32,11 @@ class ShortController extends Controller
                 $url->save();
 
             }
-            $data = ['url' => $url->url, 'alias' => url($url->hash), 'info' => url($url->hash . '/info'), 'qr' => url($url->hash . '/qr'), 'counter' => 0];
+            $data = ['url' => $url->url,
+                'alias' => url($url->hash),
+                'info' => url($url->hash . '/info'),
+                'qr' => url($url->hash . '/qr'),
+                'counter' => 0];
             return json_encode($data);
         }
     }

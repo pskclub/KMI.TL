@@ -24,15 +24,15 @@
             </button>
             <a class="navbar-brand" href="{{ url('/') }}">KMI.TL</a>
         </div>
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-           {{-- <ul class="nav navbar-nav navbar-right">
+      {{--  <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
                 <li><a href="{{ url('/') }}"><span class="glyphicon glyphicon-home"></span> Home</a></li>
                 <li><a href="/pages/custom_url"><span class="glyphicon glyphicon-heart"></span> Custom URL</a></li>
                 <li><a href="/pages/request_custom_url"><span class="glyphicon glyphicon-edit"></span> Request Custom URL</a></li>
                 <li><a href="/pages/api"><span class="glyphicon glyphicon-transfer"></span> API</a></li>
                 <li><a href="mailto:csag@kmi.tl"><span class="glyphicon glyphicon-send"></span> Contact</a></li>
-            </ul>--}}
-        </div>
+            </ul>
+        </div>--}}
     </div>
 </nav>
 <div class="container body-container">
