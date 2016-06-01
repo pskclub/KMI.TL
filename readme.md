@@ -5,7 +5,7 @@ KMI.TL is an url shortener website (http://kmi.tl)
 
 Passakon Puttasuwan
 
-Howto install
+**Howto install**
  - upload
  - composer install
  - dump sql kmi_tl.sql
