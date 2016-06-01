@@ -10,8 +10,7 @@ Passakon Puttasuwan
  - composer install
  - dump sql kmi_tl.sql
  - edit .env.example and change to .env
- - enjoy!!
- - 
+ - enjoy!! 
  
 **PHP Framework**
  - Laravel 5.2
