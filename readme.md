@@ -12,6 +12,7 @@ Passakon Puttasuwan
  - edit .env.example and change to .env
  - enjoy!!
  - 
+ 
 **PHP Framework**
  - Laravel 5.2
  
