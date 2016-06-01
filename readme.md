@@ -11,7 +11,10 @@ Passakon Puttasuwan
  - dump sql kmi_tl.sql
  - edit .env.example and change to .env
  - enjoy!!
-
+ - 
+**PHP Framework**
+ - Laravel 5.2
+ 
 The MIT License (MIT)
 =====================
 
